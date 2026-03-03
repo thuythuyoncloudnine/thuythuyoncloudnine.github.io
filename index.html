@@ -7,9 +7,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="stylesheet.css">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 60 },
+    size: { value: 3 },
+    color: { value: "#60a5fa" },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#93c5fd",
+      opacity: 0.4
+    },
+    move: { speed: 2 }
+  }
+});
+</script>
 <body>
-
+<div id="particles-js"></div>
 <!-- NAVBAR -->
 <nav class="navbar">
   <div class="nav-container">
