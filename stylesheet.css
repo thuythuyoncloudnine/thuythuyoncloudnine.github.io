@@ -7,13 +7,15 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(135deg, #eaf4ff, #f5faff);
   color: #1f2937;
   line-height: 1.6;
 }
+
+/* NAVBAR */
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
