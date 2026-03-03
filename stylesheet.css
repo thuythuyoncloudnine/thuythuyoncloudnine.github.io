@@ -256,7 +256,7 @@ section:nth-child(6) { animation-delay: 1s; }
 .profile-img {
   width: 240px;
   height: 300px;
-  object-fit: cover;        /* tránh méo ảnh */
+  object-fit: cover;        
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
   transition: 0.4s ease;
