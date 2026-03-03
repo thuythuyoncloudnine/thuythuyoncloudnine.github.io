@@ -249,7 +249,7 @@ section:nth-child(6) { animation-delay: 1s; }
 
 .about-images {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
