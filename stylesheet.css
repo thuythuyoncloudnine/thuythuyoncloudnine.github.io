@@ -1,66 +1,99 @@
-body {
+/* RESET */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
   color: #333;
 }
 
+/* NAVBAR */
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #1f2937;
-  padding: 12px 0;
+  background: #111827;
+  padding: 15px 0;
+  z-index: 1000;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 nav ul li a {
-  color: white;
   text-decoration: none;
+  color: white;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 nav ul li a:hover {
   color: #38bdf8;
 }
 
+/* HEADER */
 header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
   text-align: center;
-  padding: 120px 20px 60px;
-  background: #f3f4f6;
+  padding: 20px;
 }
 
+header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* SECTIONS */
 section {
-  padding: 80px 20px;
+  min-height: 100vh;
+  padding: 120px 20px 60px;
   max-width: 900px;
   margin: auto;
 }
 
-h1 {
-  font-size: 40px;
-}
-
 h2 {
-  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+  font-size: 32px;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
 }
 
-footer {
-  text-align: center;
-  padding: 30px;
-  background: #f3f4f6;
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* INSPIRATION SECTION */
 #inspiration {
   background-color: #f9fafb;
 }
@@ -68,5 +101,12 @@ footer {
 #inspiration em {
   font-size: 18px;
   font-style: italic;
-  color: #1f2937;
+  color: #111827;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f3f4f6;
 }
