@@ -25,7 +25,21 @@ particlesJS("particles-js", {
   }
 });
 </script>
+  <script>
+window.addEventListener("load", function() {
+  document.getElementById("loader").style.display = "none";
+});
+</script>
 <body>
+  <div id="progress-bar"></div>
+  <script>
+window.onscroll = function() {
+  let winScroll = document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("progress-bar").style.width = scrolled + "%";
+};
+</script>
 <div id="loader">
   <h2>Loading Portfolio...</h2>
 </div>
