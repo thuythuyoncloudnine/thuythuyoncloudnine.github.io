@@ -110,3 +110,30 @@ footer {
   padding: 30px;
   background: #f3f4f6;
 }
+/* INSPIRATION SECTION */
+
+.inspiration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.inspiration-container img {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.big-quote {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.quote-meaning {
+  max-width: 400px;
+  line-height: 1.6;
+}
