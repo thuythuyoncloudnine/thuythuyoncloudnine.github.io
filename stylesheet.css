@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Times New Roman, sans-serif;
   scroll-behavior: smooth;
   color: #333;
 }
@@ -127,9 +127,11 @@ footer {
 }
 
 .big-quote {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
+  font-style: italic;
   margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 
 .quote-meaning {
@@ -162,4 +164,23 @@ section:nth-child(6) { animation-delay: 1s; }
   background: linear-gradient(to right, #6366f1, #ec4899);
   -webkit-background-clip: text;
   color: transparent;
+}
+/* TYPEWRITER EFFECT */
+
+.typing {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #333;
+  animation: typing 3s steps(30, end) forwards,
+             blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
 }
