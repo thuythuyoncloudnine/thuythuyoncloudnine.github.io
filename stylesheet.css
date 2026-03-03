@@ -329,3 +329,10 @@ footer {
   height: 100%;
   z-index: -1;
 }
+/* GLASS EFFECT */
+.card, .career-box, .social-links a {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
