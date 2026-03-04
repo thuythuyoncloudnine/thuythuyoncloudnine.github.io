@@ -112,6 +112,29 @@ body {
   backdrop-filter: blur(8px);
 }
 /* ============================= */
+/* HERO BACKGROUND IMAGE */
+/* ============================= */
+
+.hero {
+  background: url("zipnerf/img/background.jpg") center/cover no-repeat;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55)),
+    url("zipnerf/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding-top: 80px;
+  background-attachment: fixed;
+}
+/* ============================= */
 /* SECTIONS */
 /* ============================= */
 .section {
