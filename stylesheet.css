@@ -150,3 +150,32 @@ body{
   background:white;
   color:black;
 }
+.contact form{
+  max-width:500px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.contact input,
+.contact textarea{
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:1rem;
+}
+
+.contact button{
+  padding:12px;
+  border:none;
+  background:#0077ff;
+  color:white;
+  font-size:1rem;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.contact button:hover{
+  background:#0056cc;
+}
